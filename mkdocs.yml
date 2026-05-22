@@ -1,0 +1,27 @@
+site_name: Brimstone Project
+site_description: Cybersecurity and engineering archive
+site_author: Adrinn
+
+theme:
+  name: material
+  palette:
+    scheme: slate
+
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - search.highlight
+    - search.share
+    - content.code.copy
+
+nav:
+  - Home: index.md
+  - Projects:
+      - Wi-Fi Mapper: projects/wifi-mapper.md
+
+markdown_extensions:
+  - tables
+  - admonition
+  - codehilite
+  - toc:
+      permalink: true
